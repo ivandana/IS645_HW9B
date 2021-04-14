@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choudhary's Sample Form</title>
+    <link rel="stylesheet" href="/styles.css" type="text/css">
+</head>
+
+<body>
+    <h3><a href="/">Link to Start Page</a></h3>
+    <h2>Choudhary's Sample Form</h2><br>
+    <form>
+        <label >Name: </label>
+        <input type="text" name="name"><br>
+        <br>
+        <label >Email: </label>
+        <input type="email" name="email" ><br>
+        <br>
+        <label >Payment Type:</label><br>
+        <input type="radio" name="payment" value="cash">
+        <label for="cash">Cash</label><br>
+        <input type="radio" name="payment" value="credit card" >
+        <label for="credit card">Credit card</label><br>
+        <input type="radio" name="payment" value="google pay">
+        <label for="google pay">Google Pay</label><br>
+        <input type="radio" name="payment" value="apple pay">
+        <label for="apple pay">Apple Pay</label><br>
+        <br>
+        <input type="checkbox" name="" id="signup" >
+        <label>Sign me up for special promotions</label><br>
+        <br>
+        <label>Preferred Location:</label>
+        <select name="location">
+            <option value="Los Angeles">Los Angeles</option>
+            <option value="Orange County">Orange County</option>
+            <option value="Riverside">Riverside</option>
+            <option value="San Diego">San Diego</option>
+        </select>
+        <br>
+        <br>
+        <button type="submit" value="Submit">Submit</button>
+        <button type="cancel" value="Cancel">Cancel</button><br>    
+</form>
+
+<p id = "output"></p>
+
+<script src="/ex1.js"></script>
+
+</body>
+</html>
